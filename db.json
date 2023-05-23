@@ -1,0 +1,50 @@
+{
+  "companys": [
+    {
+      "name": "Barber shop 2",
+      "idUser": "user1",
+      "address": "rua x",
+      "phone": "55999999999",
+      "id": "V8QW7NY"
+    },
+    {
+      "name": "Barber shop",
+      "address": "Rua y",
+      "phone": "55998765343",
+      "id": "1hJGDa6"
+    },
+    {
+      "name": "teste",
+      "address": "teste",
+      "phone": "11111111111",
+      "id": "eGxZ8lk"
+    }
+  ],
+  "services": [
+    {
+      "id": "1hJGDa6",
+      "idCompany": "cswad",
+      "description": "Corte de cabelo",
+      "name": "Corte de cabelo",
+      "price": 35
+    },
+    {
+      "name": "teste",
+      "price": 123,
+      "description": "",
+      "id": "sRv9PTQ"
+    },
+    {
+      "name": "teste",
+      "description": "'",
+      "price": 123,
+      "id": "hvgFJpo"
+    },
+    {
+      "name": "teste",
+      "description": "test",
+      "price": 123,
+      "id": "2nC1e9h"
+    }
+  ]
+}
