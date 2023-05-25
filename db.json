@@ -1,50 +1,122 @@
 {
-  "companys": [
-    {
-      "name": "Barber shop 2",
-      "idUser": "user1",
-      "address": "rua x",
-      "phone": "55999999999",
-      "id": "V8QW7NY"
-    },
-    {
-      "name": "Barber shop",
-      "address": "Rua y",
-      "phone": "55998765343",
-      "id": "1hJGDa6"
-    },
-    {
-      "name": "teste",
-      "address": "teste",
-      "phone": "11111111111",
-      "id": "eGxZ8lk"
-    }
-  ],
-  "services": [
-    {
-      "id": "1hJGDa6",
-      "idCompany": "cswad",
-      "description": "Corte de cabelo",
-      "name": "Corte de cabelo",
-      "price": 35
-    },
-    {
-      "name": "teste",
-      "price": 123,
-      "description": "",
-      "id": "sRv9PTQ"
-    },
-    {
-      "name": "teste",
-      "description": "'",
-      "price": 123,
-      "id": "hvgFJpo"
-    },
-    {
-      "name": "teste",
-      "description": "test",
-      "price": 123,
-      "id": "2nC1e9h"
-    }
-  ]
+	"companys": [
+		{
+			"name": "Empresa A",
+			"address": "Rua Maria Isabel M. Alvarez, Prado, 82, 97572-170",
+			"phone": "53-99935-6737",
+			"id": "pCKbltP"
+		},
+		{
+			"name": "Empresa C",
+			"address": "Rua Maria Isabel M. Alvarez, Prado, 81, 97572-170",
+			"phone": "34-24234-2342",
+			"id": "eVhXLxB"
+		},
+		{
+			"name": "Empresa B",
+			"address": "Rua Olívio Farias, Prado, 21, 97573-170",
+			"phone": "53-99936-3728",
+			"id": "ZaKVb0x"
+		}
+	],
+	"services": [
+		{
+			"name": "Corte C1",
+			"description": "Corte maquina e tesoura",
+			"price": 28,
+			"id": "123d"
+		}
+	],
+	"clients": [
+		{
+			"id": "teste",
+			"idCompany": "string",
+			"name": "string",
+			"phone": "string",
+			"address": "string",
+			"debit": 0,
+			"num": 123,
+			"pg": "Cel",
+			"esqd": "1º Esqd"
+		}
+	],
+	"costs": [
+		{
+			"id": "NjqzEwB",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste2",
+			"date": "2023-05-24T04:40:52.692Z"
+		},
+		{
+			"id": "FTaJt8g",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste3",
+			"date": "2023-05-24T04:41:02.374Z"
+		},
+		{
+			"id": "vBMckMH",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste3",
+			"date": "2023-05-24T04:41:09.087Z"
+		},
+		{
+			"id": "KzACONh",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste4",
+			"date": "2023-05-24T04:41:14.909Z"
+		},
+		{
+			"id": "8p0Khwk",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste5",
+			"date": "2023-05-24T04:41:20.047Z"
+		}
+	],
+	"users": [
+		{
+			"name": "Fulano",
+			"email": "fulano@email.com",
+			"phone": "55-99988-8777",
+			"password": "123",
+			"admin": "false",
+			"employee": "true",
+			"idCompanys": ["pCKbltP", "eVhXLxB"],
+			"id": "huh2"
+		},
+		{
+			"name": "teste",
+			"email": "teste@email.com",
+			"phone": "12345467654",
+			"password": "teste@email.com",
+			"admin": "false",
+			"employee": "true",
+			"idCompanys": [""],
+			"id": "dwad2"
+		},
+		{
+			"name": "Teste",
+			"email": "teste@emial",
+			"phone": "55-55555-5555",
+			"password": "teste@emial",
+			"admin": "false",
+			"employee": "true",
+			"idCompanys": ["eVhXLxB"],
+			"id": "aa21"
+		},
+		{
+			"name": "Gustavo",
+			"email": "gustavoreimche@hotmail.com",
+			"phone": "54-22233-3377",
+			"password": "gustavoreimche@hotmail.com",
+			"admin": "false",
+			"employee": "true",
+			"idCompanys": ["pCKbltP"],
+			"id": "daw322"
+		}
+	]
 }
