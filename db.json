@@ -4,7 +4,7 @@
 			"name": "Empresa A",
 			"address": "Rua Maria Isabel M. Alvarez, Prado, 82, 97572-170",
 			"phone": "53-99935-6737",
-			"id": "pCKbltP"
+			"id": "647265581ef1543f3c32961b"
 		},
 		{
 			"name": "Empresa C",
@@ -75,6 +75,13 @@
 			"value": 123,
 			"description": "teste5",
 			"date": "2023-05-24T04:41:20.047Z"
+		},
+		{
+			"id": "6NwsPBW",
+			"idCompany": "",
+			"value": 123,
+			"description": "teste",
+			"date": "2023-05-27T19:46:41.646Z"
 		}
 	],
 	"users": [
