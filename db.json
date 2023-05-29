@@ -1,129 +1,108 @@
 {
-	"companys": [
-		{
-			"name": "Empresa A",
-			"address": "Rua Maria Isabel M. Alvarez, Prado, 82, 97572-170",
-			"phone": "53-99935-6737",
-			"id": "647265581ef1543f3c32961b"
-		},
-		{
-			"name": "Empresa C",
-			"address": "Rua Maria Isabel M. Alvarez, Prado, 81, 97572-170",
-			"phone": "34-24234-2342",
-			"id": "eVhXLxB"
-		},
-		{
-			"name": "Empresa B",
-			"address": "Rua Olívio Farias, Prado, 21, 97573-170",
-			"phone": "53-99936-3728",
-			"id": "ZaKVb0x"
-		}
-	],
-	"services": [
-		{
-			"name": "Corte C1",
-			"description": "Corte maquina e tesoura",
-			"price": 28,
-			"id": "123d"
-		}
-	],
-	"clients": [
-		{
-			"id": "teste",
-			"idCompany": "string",
-			"name": "string",
-			"phone": "string",
-			"address": "string",
-			"debit": 0,
-			"num": 123,
-			"pg": "Cel",
-			"esqd": "1º Esqd"
-		}
-	],
-	"costs": [
-		{
-			"id": "NjqzEwB",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste2",
-			"date": "2023-05-24T04:40:52.692Z"
-		},
-		{
-			"id": "FTaJt8g",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste3",
-			"date": "2023-05-24T04:41:02.374Z"
-		},
-		{
-			"id": "vBMckMH",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste3",
-			"date": "2023-05-24T04:41:09.087Z"
-		},
-		{
-			"id": "KzACONh",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste4",
-			"date": "2023-05-24T04:41:14.909Z"
-		},
-		{
-			"id": "8p0Khwk",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste5",
-			"date": "2023-05-24T04:41:20.047Z"
-		},
-		{
-			"id": "6NwsPBW",
-			"idCompany": "",
-			"value": 123,
-			"description": "teste",
-			"date": "2023-05-27T19:46:41.646Z"
-		}
-	],
-	"users": [
-		{
-			"name": "Fulano",
-			"email": "fulano@email.com",
-			"phone": "55-99988-8777",
-			"password": "123",
-			"admin": "false",
-			"employee": "true",
-			"idCompanys": ["pCKbltP", "eVhXLxB"],
-			"id": "huh2"
-		},
-		{
-			"name": "teste",
-			"email": "teste@email.com",
-			"phone": "12345467654",
-			"password": "teste@email.com",
-			"admin": "false",
-			"employee": "true",
-			"idCompanys": [""],
-			"id": "dwad2"
-		},
-		{
-			"name": "Teste",
-			"email": "teste@emial",
-			"phone": "55-55555-5555",
-			"password": "teste@emial",
-			"admin": "false",
-			"employee": "true",
-			"idCompanys": ["eVhXLxB"],
-			"id": "aa21"
-		},
-		{
-			"name": "Gustavo",
-			"email": "gustavoreimche@hotmail.com",
-			"phone": "54-22233-3377",
-			"password": "gustavoreimche@hotmail.com",
-			"admin": "false",
-			"employee": "true",
-			"idCompanys": ["pCKbltP"],
-			"id": "daw322"
-		}
-	]
+  "companys": [
+    {
+      "name": "Empresa A",
+      "address": "Rua Maria Isabel M. Alvarez, Prado, 82, 97572-170",
+      "phone": "53-99935-6737",
+      "id": "647265581ef1543f3c32961b"
+    },
+    {
+      "name": "Empresa C",
+      "address": "Rua Maria Isabel M. Alvarez, Prado, 81, 97572-170",
+      "phone": "34-24234-2342",
+      "id": "eVhXLxB"
+    },
+    {
+      "name": "Empresa B",
+      "address": "Rua Olívio Farias, Prado, 21, 97573-170",
+      "phone": "53-99936-3728",
+      "id": "ZaKVb0x"
+    }
+  ],
+  "services": [
+    {
+      "name": "Corte C1",
+      "description": "Corte maquina e tesoura",
+      "price": 28,
+      "id": "123d"
+    }
+  ],
+  "clients": [
+    {
+      "name": "GUSTAVO",
+      "phone": "53-99935-6737",
+      "idCompany": "eVhXLxB",
+      "pg": "1º Ten",
+      "squad": "EM",
+      "address": "Rua Maria Isabel M. Alvarez, Prado, 82, 97572-170, Santana do Livramento",
+      "id": 1
+    }
+  ],
+  "costs": [
+    {
+      "id": "_Paa03j",
+      "idCompany": "",
+      "value": 123,
+      "description": "testeww333",
+      "date": "2023-05-28T02:22:41.383Z"
+    },
+    {
+      "id": "AV6lGVe",
+      "idCompany": "",
+      "value": 123,
+      "description": "agora foi",
+      "date": "2023-05-28T02:24:10.708Z"
+    }
+  ],
+  "users": [
+    {
+      "name": "Fulano",
+      "email": "fulano@email.com",
+      "phone": "55-99988-8777",
+      "password": "123",
+      "admin": "false",
+      "employee": "true",
+      "idCompanys": [
+        "ZaKVb0x",
+        "eVhXLxB"
+      ],
+      "id": "huh2"
+    },
+    {
+      "name": "teste",
+      "email": "teste@email.com",
+      "phone": "12345467654",
+      "password": "teste@email.com",
+      "admin": "false",
+      "employee": "true",
+      "idCompanys": [
+        ""
+      ],
+      "id": "dwad2"
+    },
+    {
+      "name": "Teste",
+      "email": "teste@emial",
+      "phone": "55-55555-5555",
+      "password": "teste@emial",
+      "admin": "false",
+      "employee": "true",
+      "idCompanys": [
+        "eVhXLxB"
+      ],
+      "id": "aa21"
+    },
+    {
+      "name": "Gustavo",
+      "email": "gustavoreimche@hotmail.com",
+      "phone": "54-22233-3377",
+      "password": "gustavoreimche@hotmail.com",
+      "admin": "false",
+      "employee": "true",
+      "idCompanys": [
+        "pCKbltP"
+      ],
+      "id": "daw322"
+    }
+  ]
 }
